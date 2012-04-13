@@ -22,14 +22,14 @@
 		E09416031531418100BEC756 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E09416051531418100BEC756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E09416071531418100BEC756 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E094160B1531418100BEC756 /* Minesweeper-Info.plist */ = {isa = PBXFileReference; path = "Minesweeper-Info.plist"; sourceTree = "<group>"; };
+		E094160B1531418100BEC756 /* Minesweeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Minesweeper-Info.plist"; sourceTree = "<group>"; };
 		E094160D1531418100BEC756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E094160F1531418100BEC756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E09416111531418100BEC756 /* Minesweeper-Prefix.pch */ = {isa = PBXFileReference; path = "Minesweeper-Prefix.pch"; sourceTree = "<group>"; };
-		E09416121531418100BEC756 /* basicsAppDelegate.h */ = {isa = PBXFileReference; path = basicsAppDelegate.h; sourceTree = "<group>"; };
+		E09416111531418100BEC756 /* Minesweeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Minesweeper-Prefix.pch"; sourceTree = "<group>"; };
+		E09416121531418100BEC756 /* basicsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = basicsAppDelegate.h; sourceTree = "<group>"; };
 		E09416131531418100BEC756 /* basicsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = basicsAppDelegate.m; sourceTree = "<group>"; };
 		E09416161531418100BEC756 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E09416181531418100BEC756 /* basicsViewController.h */ = {isa = PBXFileReference; path = basicsViewController.h; sourceTree = "<group>"; };
+		E09416181531418100BEC756 /* basicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = basicsViewController.h; sourceTree = "<group>"; };
 		E09416191531418100BEC756 /* basicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = basicsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,7 +124,7 @@
 		E09415F61531418000BEC756 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = E09415F91531418000BEC756 /* Build configuration list for PBXProject "Minesweeper" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -208,7 +208,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -226,7 +226,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -274,6 +274,7 @@
 				E094161F1531418100BEC756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
