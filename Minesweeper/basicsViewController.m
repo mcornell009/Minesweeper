@@ -47,6 +47,7 @@
     [self generateMines:c];
     }
 }
+
 - (IBAction)flagPress:(id)sender{
     if (flagging==YES){
      flagging=NO;
